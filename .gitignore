@@ -1,0 +1,5 @@
+AlfaServer/bin/*
+AlfaServer/obj/*
+AlfaServerTest/obj/*
+AlfaServerTest/bin/*
+_ReSharper.AlfaServer/*

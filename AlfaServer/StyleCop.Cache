@@ -1,0 +1,841 @@
+<stylecopresultscache>
+  <version>10</version>
+  <sourcecode name="DoorCollection.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>06/12/2011 12:24:59</timestamp>
+    <milliseconds>46</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>32</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>33</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotBeginWithUnderscore" ruleCheckId="SA1309">
+        <context>Field names must not start with an underscore.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _portModel must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _portModel must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>20</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _portModel must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>24</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>06/12/2011 13:17:12</timestamp>
+    <milliseconds>197</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="SingleLineCommentMustBePrecededByBlankLine" ruleCheckId="SA1515">
+        <context>A single-line comment must be preceded by a blank line or another single-line comment, or must be the first item in its scope. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="SingleLineCommentsMustNotBeFollowedByBlankLine" ruleCheckId="SA1512">
+        <context>A single-line comment must not be followed by a blank line. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The method must have an access modifier.</context>
+        <line>9</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
+        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>05/20/2011 10:15:03</timestamp>
+    <milliseconds>1</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Configuration.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>06/12/2011 13:23:06</timestamp>
+    <milliseconds>169</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All constructors must be placed after all fields.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>method names begin with an upper-case letter: getInstance.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="PortController.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>06/12/2011 13:22:17</timestamp>
+    <milliseconds>682</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>42</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotBeginWithUnderscore" ruleCheckId="SA1309">
+        <context>Field names must not start with an underscore.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All constructors must be placed after all fields.</context>
+        <line>26</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _portModel must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _portModel must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotBeginWithUnderscore" ruleCheckId="SA1309">
+        <context>Field names must not start with an underscore.</context>
+        <line>26</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _door must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>30</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _portModel must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>34</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _door must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>36</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>43</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
+        <context>An opening curly bracket must not be followed by a blank line.</context>
+        <line>44</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>46</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="PortModel.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>06/12/2011 17:44:41</timestamp>
+    <milliseconds>935</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="SA1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>169</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>239</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
+        <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>365</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
+        <context>The class must have an access modifier.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotBeginWithUnderscore" ruleCheckId="SA1309">
+        <context>Field names must not start with an underscore.</context>
+        <line>16</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotBeginWithUnderscore" ruleCheckId="SA1309">
+        <context>Field names must not start with an underscore.</context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotBeginWithUnderscore" ruleCheckId="SA1309">
+        <context>Field names must not start with an underscore.</context>
+        <line>19</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>21</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>23</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>24</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>25</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>26</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>29</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>31</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>32</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>33</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>34</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="OpeningCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1012">
+        <context>Invalid spacing around the opening curly bracket.</context>
+        <line>31</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="ClosingCurlyBracketsMustBeSpacedCorrectly" ruleCheckId="SA1013">
+        <context>Invalid spacing around the closing curly bracket.</context>
+        <line>31</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>37</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _readTimeout must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>39</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>42</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _writeTimeout must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>44</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="SA1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>49</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementReturnValueDocumentationMustHaveText" ruleCheckId="SA1616">
+        <context>The returns section in the documentation header must not be empty.</context>
+        <line>65</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>84</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>48</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="SA1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>91</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementReturnValueDocumentationMustHaveText" ruleCheckId="SA1616">
+        <context>The returns section in the documentation header must not be empty.</context>
+        <line>101</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>110</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>90</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="SA1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>117</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementReturnValueDocumentationMustHaveText" ruleCheckId="SA1616">
+        <context>The returns section in the documentation header must not be empty.</context>
+        <line>127</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>135</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>116</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="SA1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>142</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementReturnValueDocumentationMustHaveText" ruleCheckId="SA1616">
+        <context>The returns section in the documentation header must not be empty.</context>
+        <line>163</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>141</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>149</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="SA1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>172</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementParametersMustBeDocumented" ruleCheckId="SA1611">
+        <context>The documentation header must contain param tags matching the element's parameter list.</context>
+        <line>190</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementReturnValueMustBeDocumented" ruleCheckId="SA1615">
+        <context>The documentation header must contain a returns tag since the element has a return value.</context>
+        <line>190</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>198</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to ReadAllKeys must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>200</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>171</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementReturnValueDocumentationMustHaveText" ruleCheckId="SA1616">
+        <context>The returns section in the documentation header must not be empty.</context>
+        <line>209</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="SA1202">
+        <context>All private methods must be placed after all public methods.</context>
+        <line>254</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="ElementsMustBeOrderedByAccess" ruleCheckId="SA1202">
+        <context>All private methods must be placed after all public methods.</context>
+        <line>314</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="StaticElementsMustAppearBeforeInstanceElements" ruleCheckId="SA1204">
+        <context>All static private methods must be placed before all non-static private methods.</context>
+        <line>354</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>222</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>227</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>217</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="OpeningSquareBracketsMustBeSpacedCorrectly" ruleCheckId="SA1010">
+        <context>Invalid spacing around the opening square bracket.</context>
+        <line>219</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="SA1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>242</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementReturnValueMustBeDocumented" ruleCheckId="SA1615">
+        <context>The documentation header must contain a returns tag since the element has a return value.</context>
+        <line>254</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>262</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to ReadStateOfSensorAndNumberLastKey must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>264</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>241</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustContainWhitespace" ruleCheckId="SA1630">
+        <context>The documentation text within the return tag does not contain any whitespace between words, indicating that it most likely does not follow a proper grammatical structure required for documentation text.</context>
+        <line>274</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="DocumentationTextMustMeetMinimumCharacterLength" ruleCheckId="SA1632">
+        <context>The documentation text within the return tag must be at least 10 characters in length. Documentation failing to meet this guideline most likely does not follow a proper grammatical structure required for documentation text.</context>
+        <line>274</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketMustBeFollowedByBlankLine" ruleCheckId="SA1513">
+        <context>Statements or elements wrapped in curly brackets must be followed by a blank line.</context>
+        <line>293</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>284</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>288</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="ClosingParenthesisMustBeSpacedCorrectly" ruleCheckId="SA1009">
+        <context>Invalid spacing around the closing parenthesis.</context>
+        <line>284</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="SemicolonsMustBeSpacedCorrectly" ruleCheckId="SA1002">
+        <context>Invalid spacing around the semicolon.</context>
+        <line>284</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="DocumentationHeadersMustNotContainBlankLines" ruleCheckId="SA1644">
+        <context>The documentation header must not contain blank lines. Use the 'para' tag to insert line breaks within documentation text.</context>
+        <line>299</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementReturnValueMustBeDocumented" ruleCheckId="SA1615">
+        <context>The documentation header must contain a returns tag since the element has a return value.</context>
+        <line>314</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>322</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to ReadLastKey must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>324</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="TabsMustNotBeUsed" ruleCheckId="SA1027">
+        <context>Tabs are not allowed. Use spaces instead.</context>
+        <line>298</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>329</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>339</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to _serialPort must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>344</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>354</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.SpacingRules" rule="OpeningSquareBracketsMustBeSpacedCorrectly" ruleCheckId="SA1010">
+        <context>Invalid spacing around the opening square bracket.</context>
+        <line>354</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <project key="-1489568616">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="Door.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>06/12/2011 17:49:23</timestamp>
+    <milliseconds>581</milliseconds>
+    <violations>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="ConstructorSummaryDocumentationMustBeginWithStandardText" ruleCheckId="SA1642">
+        <context>The documentation text within the constructor's summary tag must begin with the text: Initializes a new instance of the {Type name} class.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to Number must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to Keys must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="PropertySummaryDocumentationMustMatchAccessors" ruleCheckId="SA1623">
+        <context>The property's documentation summary text must begin with: Gets or sets</context>
+        <line>24</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.DocumentationRules" rule="PropertySummaryDocumentationMustMatchAccessors" ruleCheckId="SA1623">
+        <context>The property's documentation summary text must begin with: Gets or sets</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
+        <context>Adjacent elements must be separated by a blank line.</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="Microsoft.StyleCop.CSharp.LayoutRules" rule="ElementDocumentationHeaderMustBePrecededByBlankLine" ruleCheckId="SA1514">
+        <context>A documentation header must be preceded by a blank line or must be the first item in its scope.</context>
+        <line>25</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+</stylecopresultscache>

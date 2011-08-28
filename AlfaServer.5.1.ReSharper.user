@@ -1,0 +1,782 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/d:Properties/f:AssemblyInfo.cs" caret="24" fromTop="0" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:Services/f:IClientServiceCallback.cs" caret="484" fromTop="14" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/f:MxComPortConfig.cs" caret="716" fromTop="19" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:ReadData.cs" caret="132" fromTop="6" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Port.cs" caret="438" fromTop="13" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:MoxaSerialPort.cs" caret="9769" fromTop="31" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:Services/f:ClientService.cs" caret="2752" fromTop="73" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:Services/f:IClientService.cs" caret="0" fromTop="0" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:TestPort.cs" caret="680" fromTop="25" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/f:Configuration.cs" caret="1693" fromTop="15" />
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/f:DoorTest.cs" caret="833" fromTop="26" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:Entities/f:ModelAlfa.Designer.cs" caret="3521" fromTop="10" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/f:app.config" caret="1744" fromTop="24" />
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/f:App.Config" caret="479" fromTop="3" />
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/d:Entities/f:ModelAlfa.edmx" caret="350" fromTop="6" />
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/d:Entities/f:ModelAlfa.Designer.cs" caret="3233" fromTop="0" />
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/f:FloorTest.cs" caret="441" fromTop="10" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Room.cs" caret="3405" fromTop="74" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/f:NLog.config" caret="316" fromTop="5" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:Entities/f:ModelAlfa.edmx" caret="32129" fromTop="27" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/f:ConsoleApplication.cs" caret="622" fromTop="24" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/f:AlfaService.cs" caret="1095" fromTop="28" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:FloorsCollection.cs" caret="1215" fromTop="24" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="5696" fromTop="12" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:Services/f:ClientService.cs" caret="2752" fromTop="22" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/f:Configuration.cs" caret="1691" fromTop="15" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="8647" fromTop="16" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="9418" fromTop="19" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="8817" fromTop="6" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="11188" fromTop="19" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="12685" fromTop="15" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="14366" fromTop="15" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="75" fromTop="2" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="689" fromTop="11" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="10119" fromTop="19" />
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/f:DoorTest.cs" caret="833" fromTop="20" />
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/f:FloorTest.cs" caret="141" fromTop="6" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="1594" fromTop="25" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="1958" fromTop="16" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:Entities/f:ModelAlfa.Designer.cs" caret="3049" fromTop="20" />
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/f:App.Config" caret="84" fromTop="3" />
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/d:Entities/f:ModelAlfa.edmx" caret="350" fromTop="6" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="1365" fromTop="25" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="1363" fromTop="21" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="874" fromTop="3" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:FloorsCollection.cs" caret="1296" fromTop="22" />
+      <File id="9845AA73-CE23-43AC-9503-C51F1FF97712/f:FloorTest.cs" caret="384" fromTop="14" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:FloorsCollection.cs" caret="2070" fromTop="9" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="1363" fromTop="10" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="1363" fromTop="9" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="5837" fromTop="23" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="4771" fromTop="9" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="4343" fromTop="2" />
+      <File id="C59D5D2F-A648-4576-BB7B-4ACBA97659A0/d:models/f:Floor.cs" caret="5648" fromTop="18" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="86" />
+      <Item value="Configuration`0" priority="11" />
+      <Item value="private" priority="55" />
+      <Item value="static" priority="6" />
+      <Item value="if" priority="56" />
+      <Item value="_configuration" priority="2" />
+      <Item value="new" priority="115" />
+      <Item value="Configuration" priority="0" />
+      <Item value="else" priority="21" />
+      <Item value="return" priority="78" />
+      <Item value="null" priority="11" />
+      <Item value="using" priority="11" />
+      <Item value="System" priority="19" />
+      <Item value="IO" priority="0" />
+      <Item value="Ports" priority="0" />
+      <Item value="PortController`0" priority="6" />
+      <Item value="SerialPort`0" priority="4" />
+      <Item value="portController" priority="11" />
+      <Item value="PortController" priority="2" />
+      <Item value="serialPort" priority="31" />
+      <Item value="SerialPort" priority="1" />
+      <Item value="AlfaServer.controllers" priority="0" />
+      <Item value="bool" priority="49" />
+      <Item value="string" priority="33" />
+      <Item value="message" priority="9" />
+      <Item value="true" priority="43" />
+      <Item value="Console`0" priority="29" />
+      <Item value="void" priority="33" />
+      <Item value="Encoding`0" priority="2" />
+      <Item value="byte" priority="145" />
+      <Item value="byteMessage" priority="1" />
+      <Item value="Length" priority="23" />
+      <Item value="callback" priority="0" />
+      <Item value="AsyncCallback`0" priority="1" />
+      <Item value="asyncCallback" priority="1" />
+      <Item value="AsyncCallback" priority="0" />
+      <Item value="IAsyncResult`0" priority="3" />
+      <Item value="asyncResult" priority="0" />
+      <Item value="object" priority="1" />
+      <Item value="state" priority="7" />
+      <Item value="TextWriter`0" priority="1" />
+      <Item value="StreamWriter`0" priority="1" />
+      <Item value="readThread" priority="0" />
+      <Item value="char" priority="1" />
+      <Item value="Threading.Tasks" priority="0" />
+      <Item value="Threading" priority="5" />
+      <Item value="Tasks" priority="0" />
+      <Item value="Task" priority="3" />
+      <Item value="Thread`0" priority="20" />
+      <Item value="try" priority="5" />
+      <Item value="Diagnostics" priority="9" />
+      <Item value="Debug`0" priority="8" />
+      <Item value="ToString`0" priority="4" />
+      <Item value="Task`0" priority="1" />
+      <Item value="const" priority="1" />
+      <Item value="t1" priority="0" />
+      <Item value="t2" priority="1" />
+      <Item value="exception" priority="8" />
+      <Item value="streamWriter" priority="0" />
+      <Item value="getTextReader`0" priority="1" />
+      <Item value="textWriter" priority="1" />
+      <Item value="getTextWriter`0" priority="0" />
+      <Item value="TextReader`0" priority="0" />
+      <Item value="textReader" priority="1" />
+      <Item value="this" priority="22" />
+      <Item value="while" priority="3" />
+      <Item value="catch" priority="2" />
+      <Item value="Exception`0" priority="1" />
+      <Item value="e" priority="2" />
+      <Item value="s" priority="0" />
+      <Item value="TimeoutException`0" priority="1" />
+      <Item value="int" priority="26" />
+      <Item value="portName" priority="19" />
+      <Item value="readTimeout" priority="1" />
+      <Item value="timeout" priority="1" />
+      <Item value="writeTimeout" priority="0" />
+      <Item value="readonly" priority="1" />
+      <Item value="command" priority="13" />
+      <Item value="controllerNumber" priority="23" />
+      <Item value="keyCode" priority="1" />
+      <Item value="Math`0" priority="0" />
+      <Item value="for" priority="12" />
+      <Item value="i" priority="21" />
+      <Item value="package" priority="14" />
+      <Item value="checkSum" priority="1" />
+      <Item value="getCheckSum`0" priority="5" />
+      <Item value="false" priority="36" />
+      <Item value="keyNumber" priority="3" />
+      <Item value="newControllerNumber" priority="0" />
+      <Item value="result" priority="13" />
+      <Item value="readNumberLastKeyPackage`0" priority="0" />
+      <Item value="key" priority="33" />
+      <Item value="readPackage" priority="2" />
+      <Item value="models" priority="10" />
+      <Item value="buffer" priority="16" />
+      <Item value="bufferLenght" priority="4" />
+      <Item value="as" priority="1" />
+      <Item value="get" priority="11" />
+      <Item value="set" priority="5" />
+      <Item value="Door`0" priority="3" />
+      <Item value="door" priority="10" />
+      <Item value="List&lt;Door&gt;" priority="0" />
+      <Item value="getAllKeys`0" priority="0" />
+      <Item value="doorControllerNumber" priority="1" />
+      <Item value="Dictionary" priority="10" />
+      <Item value="Dictionary&lt;byte,byte[]&gt;" priority="4" />
+      <Item value="foreach" priority="29" />
+      <Item value="keys" priority="20" />
+      <Item value="readAllKeys`0" priority="0" />
+      <Item value="Door" priority="2" />
+      <Item value="number" priority="4" />
+      <Item value="AlfaServer" priority="5" />
+      <Item value="PortModel`0" priority="3" />
+      <Item value="portModel" priority="6" />
+      <Item value="PortModel" priority="6" />
+      <Item value="name" priority="3" />
+      <Item value="operator" priority="0" />
+      <Item value="b" priority="2" />
+      <Item value="List" priority="3" />
+      <Item value="DoorCollection`0" priority="3" />
+      <Item value="port" priority="2" />
+      <Item value="NUnit" priority="0" />
+      <Item value="Framework" priority="0" />
+      <Item value="Assert`0" priority="4" />
+      <Item value="Test" priority="0" />
+      <Item value="Disconary" priority="0" />
+      <Item value="Is`0" priority="1" />
+      <Item value="packegeLenght" priority="1" />
+      <Item value="packege" priority="2" />
+      <Item value="enum" priority="0" />
+      <Item value="StateType`0" priority="2" />
+      <Item value="prop" priority="1" />
+      <Item value="KeyNotFoundException`0" priority="0" />
+      <Item value="LastKey" priority="0" />
+      <Item value="State" priority="0" />
+      <Item value="Open" priority="0" />
+      <Item value="ConsoleKey`0" priority="3" />
+      <Item value="ConsoleKeyInfo`0" priority="0" />
+      <Item value="switch" priority="0" />
+      <Item value="case" priority="2" />
+      <Item value="break" priority="5" />
+      <Item value="commands" priority="0" />
+      <Item value="DateTime`0" priority="7" />
+      <Item value="doorCollection" priority="9" />
+      <Item value="DoorCollection" priority="0" />
+      <Item value="do" priority="0" />
+      <Item value="tmp" priority="2" />
+      <Item value="_portModel" priority="0" />
+      <Item value="ReadLastKey`0" priority="0" />
+      <Item value="_numberOfRepetitions" priority="4" />
+      <Item value="_task" priority="0" />
+      <Item value="GetStateOfSensorAndNumberLastKey`0" priority="0" />
+      <Item value="Action" priority="0" />
+      <Item value="_taskStatusPolling" priority="3" />
+      <Item value="Thread" priority="4" />
+      <Item value="_threadStatusPolling" priority="19" />
+      <Item value="TaskScheduler`0" priority="2" />
+      <Item value="taskScheduler" priority="1" />
+      <Item value="Monitor`0" priority="0" />
+      <Item value="Mutex`0" priority="0" />
+      <Item value="ExecutionContext`0" priority="0" />
+      <Item value="AsyncFlowControl`0" priority="0" />
+      <Item value="asyncFlowControl" priority="1" />
+      <Item value="AsyncFlowControl" priority="0" />
+      <Item value="WaitHandle`0" priority="0" />
+      <Item value="_writeTimeout" priority="0" />
+      <Item value="SetReadTimeout`0" priority="0" />
+      <Item value="SetWriteTimeout`0" priority="0" />
+      <Item value="_serialPort" priority="8" />
+      <Item value="None" priority="0" />
+      <Item value="BitConverter`0" priority="0" />
+      <Item value="BitArray" priority="0" />
+      <Item value="ba" priority="0" />
+      <Item value="BitArray`0" priority="0" />
+      <Item value="outputState" priority="2" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="_currentDoorNumber" priority="13" />
+      <Item value="_logger" priority="17" />
+      <Item value="continue" priority="3" />
+      <Item value="GetLastKey`0" priority="1" />
+      <Item value="doorsCollection" priority="1" />
+      <Item value="UnsetKey`0" priority="1" />
+      <Item value="PortName" priority="17" />
+      <Item value="Program`0" priority="2" />
+      <Item value="BaudRate" priority="0" />
+      <Item value="Parity" priority="0" />
+      <Item value="Parity`0" priority="0" />
+      <Item value="size" priority="1" />
+      <Item value="_sleepTime" priority="3" />
+      <Item value="ReadBufferFromPort`0" priority="3" />
+      <Item value="class" priority="4" />
+      <Item value="ReadData`0" priority="5" />
+      <Item value="readData" priority="15" />
+      <Item value="ReadData" priority="1" />
+      <Item value="Array`0" priority="4" />
+      <Item value="dataBuffer" priority="1" />
+      <Item value="GetCheckSum`0" priority="0" />
+      <Item value="_readTimeout" priority="0" />
+      <Item value="_lastReadingKey" priority="0" />
+      <Item value="AlfaEntities`0" priority="16" />
+      <Item value="alfaEntities" priority="12" />
+      <Item value="AlfaEntities" priority="13" />
+      <Item value="Floors`0" priority="16" />
+      <Item value="_alfaEntities" priority="22" />
+      <Item value="ServiceReference1" priority="5" />
+      <Item value="Inc_Symfony_Soap_MethodsPort`0" priority="2" />
+      <Item value="CancelMessage`0" priority="0" />
+      <Item value="soapMethodsPort" priority="1" />
+      <Item value="_onLine" priority="2" />
+      <Item value="OnLine" priority="0" />
+      <Item value="value" priority="4" />
+      <Item value="_countReadError" priority="1" />
+      <Item value="OperationContract" priority="4" />
+      <Item value="args" priority="1" />
+      <Item value="AlfaService`0" priority="0" />
+      <Item value="ConsoleApplication`0" priority="1" />
+      <Item value="consoleApplication" priority="0" />
+      <Item value="ConsoleApplication" priority="0" />
+      <Item value="from" priority="17" />
+      <Item value="floor" priority="41" />
+      <Item value="var" priority="2" />
+      <Item value="where" priority="8" />
+      <Item value="select" priority="5" />
+      <Item value="GetFloors`0" priority="0" />
+      <Item value="Floors" priority="4" />
+      <Item value="FloorsCollection`0" priority="24" />
+      <Item value="floorsCollection" priority="11" />
+      <Item value="FloorsCollection" priority="2" />
+      <Item value="query" priority="0" />
+      <Item value="Rooms`0" priority="16" />
+      <Item value="room" priority="49" />
+      <Item value="Room" priority="1" />
+      <Item value="Floor`0" priority="7" />
+      <Item value="Floor" priority="5" />
+      <Item value="floorsItem" priority="4" />
+      <Item value="ForEach`0" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="thr" priority="0" />
+      <Item value="_floorsCollection" priority="3" />
+      <Item value="GenericUriParserOptions`0" priority="0" />
+      <Item value="SwitchGerkon" priority="0" />
+      <Item value="onLine" priority="3" />
+      <Item value="countOnLineRoom" priority="2" />
+      <Item value="_maxCountReadError" priority="0" />
+      <Item value="time" priority="0" />
+      <Item value="floorsCollectionItem" priority="5" />
+      <Item value="keyValuePair" priority="10" />
+      <Item value="isValid" priority="2" />
+      <Item value="_isProtected" priority="2" />
+      <Item value="isProtected" priority="8" />
+      <Item value="lightOn" priority="2" />
+      <Item value="SetStateOutputs`0" priority="0" />
+      <Item value="LightOn" priority="0" />
+      <Item value="rooms" priority="6" />
+      <Item value="roomsRow" priority="0" />
+      <Item value="long" priority="4" />
+      <Item value="_roomId" priority="3" />
+      <Item value="roomId" priority="6" />
+      <Item value="roomse" priority="0" />
+      <Item value="currentRoom" priority="1" />
+      <Item value="Stopwatch`0" priority="1" />
+      <Item value="stopwatch" priority="5" />
+      <Item value="Stopwatch" priority="1" />
+      <Item value="NLog" priority="2" />
+      <Item value="Logger`0" priority="4" />
+      <Item value="ServiceHost`0" priority="0" />
+      <Item value="_host" priority="0" />
+      <Item value="SessionMode" priority="0" />
+      <Item value="SessionMode`0" priority="0" />
+      <Item value="CallbackContract" priority="0" />
+      <Item value="interface" priority="1" />
+      <Item value="typeof" priority="0" />
+      <Item value="IClientServiceCallback`0" priority="1" />
+      <Item value="ModuleHandle`0" priority="1" />
+      <Item value="IsOneWay" priority="3" />
+      <Item value="clientServiceCallback" priority="2" />
+      <Item value="ClientServiceCallback" priority="3" />
+      <Item value="_floor" priority="1" />
+      <Item value="currentFloor" priority="0" />
+      <Item value="_currentFloor" priority="2" />
+      <Item value="floorId" priority="0" />
+      <Item value="_currentRoom" priority="3" />
+      <Item value="Linq" priority="0" />
+      <Item value="Room`0" priority="0" />
+      <Item value="Keys`0" priority="7" />
+      <Item value="currentKey" priority="2" />
+      <Item value="endDate" priority="1" />
+      <Item value="_portName" priority="5" />
+      <Item value="Buffer`0" priority="0" />
+      <Item value="Rooms" priority="0" />
+      <Item value="roomNumber" priority="1" />
+      <Item value="roomClass" priority="0" />
+      <Item value="roomCategory" priority="0" />
+      <Item value="floors" priority="6" />
+      <Item value="floorName" priority="1" />
+      <Item value="_threadStatusPoll" priority="0" />
+      <Item value="countPoll" priority="2" />
+      <Item value="_interval" priority="0" />
+      <Item value="CurrentFloor" priority="0" />
+      <Item value="orderby" priority="0" />
+      <Item value="dbKeys" priority="1" />
+      <Item value="IEnumerable" priority="2" />
+      <Item value="Microsoft" priority="0" />
+      <Item value="floorse" priority="1" />
+      <Item value="EntryWrittenEventArgs`0" priority="0" />
+      <Item value="MethodBase`0" priority="0" />
+      <Item value="_currentMethodName" priority="2" />
+      <Item value="_controllerLock" priority="2" />
+      <Item value="_config" priority="5" />
+      <Item value="LogManager`0" priority="1" />
+      <Item value="thread" priority="1" />
+      <Item value="InitFloor`0" priority="1" />
+      <Item value="ParameterizedThreadStart" priority="0" />
+      <Item value="obj" priority="0" />
+      <Item value="List&lt;Thread&gt;" priority="0" />
+      <Item value="List&lt;Floor&gt;" priority="0" />
+      <Item value="closedPorts" priority="6" />
+      <Item value="keysBuffer" priority="3" />
+      <Item value="position" priority="4" />
+      <Item value="sum" priority="0" />
+      <Item value="_initFloors" priority="1" />
+      <Item value="TimeSpan`0" priority="0" />
+      <Item value="timeSpan" priority="1" />
+      <Item value="TimeSpan" priority="0" />
+      <Item value="IFormatProvider`0" priority="0" />
+      <Item value="oldDate" priority="1" />
+      <Item value="currentDate" priority="3" />
+      <Item value="checkTime" priority="1" />
+      <Item value="Keys" priority="1" />
+      <Item value="keyItem" priority="3" />
+      <Item value="keyIsFound" priority="1" />
+      <Item value="keysItem" priority="6" />
+      <Item value="ReadingKey`0" priority="4" />
+      <Item value="IsValid" priority="0" />
+      <Item value="Key" priority="0" />
+      <Item value="ReadingKey" priority="2" />
+      <Item value="k" priority="0" />
+      <Item value="readingSuccesfuly" priority="2" />
+      <Item value="ReadAllKeys`0" priority="0" />
+      <Item value="Dictionary&lt;byte,ReadingKey&gt;" priority="0" />
+      <Item value="resultKeys" priority="2" />
+      <Item value="IPort`0" priority="5" />
+      <Item value="abstract" priority="1" />
+      <Item value="virtual" priority="0" />
+      <Item value="MoxaSerialPort`0" priority="3" />
+      <Item value="Port`0" priority="1" />
+      <Item value="type" priority="0" />
+      <Item value="testPort" priority="0" />
+      <Item value="_port" priority="0" />
+      <Item value="GetPort`0" priority="0" />
+      <Item value="TestPort`0" priority="0" />
+      <Item value="ISet" priority="0" />
+      <Item value="testingMode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Ports.SerialPort">
+      <Item value="ReadTimeout" priority="0" />
+      <Item value="WriteTimeout" priority="0" />
+      <Item value="Open`0" priority="3" />
+      <Item value="Close`0" priority="1" />
+      <Item value="BaseStream" priority="7" />
+      <Item value="Encoding" priority="0" />
+      <Item value="WriteLine`0" priority="2" />
+      <Item value="ReadLine`0" priority="2" />
+      <Item value="NewLine" priority="0" />
+      <Item value="PortName" priority="2" />
+      <Item value="Write`0" priority="3" />
+      <Item value="Read`0" priority="4" />
+      <Item value="StopBits" priority="0" />
+      <Item value="IsOpen" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.controllers.PortController">
+      <Item value="sendMessage`0" priority="3" />
+      <Item value="readMessage`0" priority="4" />
+      <Item value="getTextWriter`0" priority="0" />
+      <Item value="readTimeout" priority="1" />
+      <Item value="writeTimeout" priority="1" />
+      <Item value="setKey`0" priority="1" />
+      <Item value="getStateOfSensorAndNumberLastKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="Read`0" priority="0" />
+      <Item value="WriteLine`0" priority="25" />
+      <Item value="ReadLine`0" priority="3" />
+      <Item value="ReadKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="BeginWrite`0" priority="2" />
+      <Item value="Write`0" priority="1" />
+      <Item value="Read`0" priority="0" />
+      <Item value="Flush`0" priority="0" />
+      <Item value="WriteAsync`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="UTF8" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetBytes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="16" />
+      <Item value="AllocateDataSlot`0" priority="0" />
+      <Item value="Yield`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Tasks.Task">
+      <Item value="Start`0" priority="4" />
+      <Item value="Wait`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.TextWriter">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.TextReader">
+      <Item value="ReadLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="6" />
+      <Item value="Count" priority="1" />
+      <Item value="Indexer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="2" />
+      <Item value="Count" priority="1" />
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.models.Door">
+      <Item value="number" priority="1" />
+      <Item value="keys" priority="1" />
+      <Item value="Number" priority="2" />
+      <Item value="Key" priority="1" />
+      <Item value="LastKeyNumber" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="That`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Is">
+      <Item value="EqualTo`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AlfaServer.models.Door+StateType">
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ConsoleKey">
+      <Item value="D1" priority="0" />
+      <Item value="D2" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ConsoleKeyInfo">
+      <Item value="Key" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Indexer" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="ToLower`0" priority="2" />
+      <Item value="Trim`0" priority="0" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="2" />
+      <Item value="ToBinary`0" priority="1" />
+      <Item value="ToLongTimeString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.models.DoorCollection">
+      <Item value="Init`0" priority="0" />
+      <Item value="Indexer" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="GetLastKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start`0" priority="4" />
+      <Item value="Suspend`0" priority="7" />
+      <Item value="Resume`0" priority="4" />
+      <Item value="Abort`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Monitor">
+      <Item value="Enter`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.BitConverter">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NLog.Logger">
+      <Item value="Info`0" priority="18" />
+      <Item value="Debug`0" priority="2" />
+      <Item value="Error`0" priority="2" />
+      <Item value="Log`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.models.DoorsCollection">
+      <Item value="Remove`0" priority="0" />
+      <Item value="UnsetKey`0" priority="0" />
+      <Item value="Init`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.ConsoleCommand">
+      <Item value="SetOrRemoveKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Ports.Parity">
+      <Item value="None" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Ports.StopBits">
+      <Item value="One" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.models.DoorsCollection+ReadData">
+      <Item value="IsValid" priority="4" />
+      <Item value="Buffer" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Array">
+      <Item value="Copy`0" priority="0" />
+      <Item value="Exists`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.AlfaEntities">
+      <Item value="Floors" priority="6" />
+      <Item value="Rooms" priority="3" />
+      <Item value="SaveChanges`0" priority="4" />
+      <Item value="Keys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.ServiceReference1.Inc_Symfony_Soap_MethodsPort">
+      <Item value="cancel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.Floors">
+      <Item value="FloorId" priority="5" />
+      <Item value="Rooms" priority="5" />
+      <Item value="ComPort" priority="4" />
+      <Item value="FloorName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.Rooms">
+      <Item value="ConrollerId" priority="4" />
+      <Item value="OnLine" priority="3" />
+      <Item value="IsProtected" priority="1" />
+      <Item value="RoomId" priority="4" />
+      <Item value="Keys" priority="3" />
+      <Item value="LightOn" priority="0" />
+      <Item value="FloorId" priority="1" />
+      <Item value="RoomNumber" priority="0" />
+      <Item value="RoomClass" priority="0" />
+      <Item value="RoomCategories" priority="0" />
+      <Item value="RoomCategoriesId" priority="0" />
+      <Item value="Floors" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.models.Floor">
+      <Item value="_writeTimeout" priority="0" />
+      <Item value="Add`0" priority="1" />
+      <Item value="AddRoom`0" priority="3" />
+      <Item value="StartPolling`0" priority="3" />
+      <Item value="Count" priority="1" />
+      <Item value="Zip`3" priority="0" />
+      <Item value="PortName" priority="5" />
+      <Item value="SetKey`0" priority="0" />
+      <Item value="GetAllKeys`0" priority="0" />
+      <Item value="CheckingExistenceKey`0" priority="0" />
+      <Item value="UnsetKey`0" priority="0" />
+      <Item value="GetLastKey`0" priority="0" />
+      <Item value="SetLight`0" priority="0" />
+      <Item value="SetRoomToProtect`0" priority="0" />
+      <Item value="Clear`0" priority="0" />
+      <Item value="ClientServiceCallback" priority="1" />
+      <Item value="CurrentFloor" priority="1" />
+      <Item value="StopPolling`0" priority="0" />
+      <Item value="IsOpen`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.models.FloorsCollection">
+      <Item value="Add`0" priority="1" />
+      <Item value="Find`0" priority="1" />
+      <Item value="FindIndex`0" priority="0" />
+      <Item value="IndexOf`0" priority="0" />
+      <Item value="AlfaEntities" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AlfaServer.models.FloorsCollection">
+      <Item value="Init`0" priority="6" />
+      <Item value="GetInstance`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.models.Room">
+      <Item value="OnLine" priority="1" />
+      <Item value="CountReadError" priority="2" />
+      <Item value="Number" priority="0" />
+      <Item value="IsProtected" priority="1" />
+      <Item value="RoomId" priority="1" />
+      <Item value="ControllerNumber" priority="1" />
+      <Item value="CurrentRoom" priority="2" />
+      <Item value="Key" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="6" />
+      <Item value="Value" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Byte">
+      <Item value="Equals`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="First`1" priority="4" />
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Stopwatch">
+      <Item value="Start`0" priority="1" />
+      <Item value="Elapsed" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ServiceModel.ServiceHost">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ServiceModel.SessionMode">
+      <Item value="Required" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.IClientServiceCallback">
+      <Item value="AlertGerkon`0" priority="2" />
+      <Item value="AlertAboutControllerNotResponsible`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="Include`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectQuery`1">
+      <Item value="Include`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.Keys">
+      <Item value="FIO" priority="2" />
+      <Item value="keyCode" priority="2" />
+      <Item value="CellNumber" priority="2" />
+      <Item value="CreateDate" priority="1" />
+      <Item value="GuestIdn" priority="1" />
+      <Item value="RemoveDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="First`1" priority="2" />
+      <Item value="Count`1" priority="0" />
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.MethodBase">
+      <Item value="GetCurrentMethod`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodBase">
+      <Item value="ToString`0" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AlfaServer.Configuration">
+      <Item value="GetInstance`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.Configuration">
+      <Item value="GetIntervalOpeningPorts`0" priority="0" />
+      <Item value="CountReadingsAllKeys" priority="0" />
+      <Item value="CountKeysCells" priority="2" />
+      <Item value="IntervalReadingAllKeys" priority="0" />
+      <Item value="IntervalSleepTime" priority="0" />
+      <Item value="MaxCountReadError" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NLog.LogManager">
+      <Item value="GetCurrentClassLogger`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.entities.Rooms">
+      <Item value="DateRemove" priority="0" />
+      <Item value="Keys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.entities.Keys">
+      <Item value="EndDate" priority="2" />
+      <Item value="RemoveDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.entities.AlfaEntities">
+      <Item value="SaveChanges`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.Entities.AlfaEntities">
+      <Item value="SaveChanges`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.Entities.Rooms">
+      <Item value="Keys" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.Entities.Keys">
+      <Item value="CellNumber" priority="2" />
+      <Item value="EndDate" priority="0" />
+      <Item value="CreateDate" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="keyCode" priority="1" />
+      <Item value="FIO" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.DataClasses.EntityCollection`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.models.ReadingKey">
+      <Item value="Key" priority="2" />
+      <Item value="IsValid" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeoutException">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.models.Port">
+      <Item value="GetAllKeys`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.models.IPort">
+      <Item value="GetNumberLastRespondedController`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AlfaServer.Entities.Floors">
+      <Item value="ComPort" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="AlfaTestingModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="AlfaTestingModelStoreContainer">
+          <EntitySet Name="CellGroup" EntityType="AlfaTestingModel.Store.CellGroup" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Floors" EntityType="AlfaTestingModel.Store.Floors" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Keys" EntityType="AlfaTestingModel.Store.Keys" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="logRecs" EntityType="AlfaTestingModel.Store.logRecs" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="RoomCategories" EntityType="AlfaTestingModel.Store.RoomCategories" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Rooms" EntityType="AlfaTestingModel.Store.Rooms" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Users" EntityType="AlfaTestingModel.Store.Users" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Keys_Rooms" Association="AlfaTestingModel.Store.FK_Keys_Rooms">
+            <End Role="Rooms" EntitySet="Rooms" />
+            <End Role="Keys" EntitySet="Keys" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Keys_Users" Association="AlfaTestingModel.Store.FK_Keys_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Keys" EntitySet="Keys" />
+          </AssociationSet>
+          <AssociationSet Name="FK_logRecs_Rooms" Association="AlfaTestingModel.Store.FK_logRecs_Rooms">
+            <End Role="Rooms" EntitySet="Rooms" />
+            <End Role="logRecs" EntitySet="logRecs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_logRecs_Users" Association="AlfaTestingModel.Store.FK_logRecs_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="logRecs" EntitySet="logRecs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_CellGroup" Association="AlfaTestingModel.Store.FK_Users_CellGroup">
+            <End Role="CellGroup" EntitySet="CellGroup" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Floor" Association="AlfaTestingModel.Store.FK_Users_Floor">
+            <End Role="Floors" EntitySet="Floors" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CellGroup">
+          <Key>
+            <PropertyRef Name="CellGroupID" />
+          </Key>
+          <Property Name="CellGroupID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CellID" Type="varchar" MaxLength="200" />
+          <Property Name="Primech" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="Floors">
+          <Key>
+            <PropertyRef Name="FloorId" />
+          </Key>
+          <Property Name="FloorId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FloorName" Type="varchar" MaxLength="50" />
+          <Property Name="IPAddress" Type="nchar" MaxLength="50" />
+          <Property Name="ComPort" Type="varchar" MaxLength="10" />
+          <Property Name="ReaderProtocol" Type="smallint" />
+        </EntityType>
+        <EntityType Name="Keys">
+          <Key>
+            <PropertyRef Name="KeyId" />
+          </Key>
+          <Property Name="KeyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CellNumber" Type="int" Nullable="false" />
+          <Property Name="keyCode" Type="varchar" Nullable="false" MaxLength="16" />
+          <Property Name="FIO" Type="varchar" MaxLength="255" />
+          <Property Name="GuestIdn" Type="int" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="RemoveDate" Type="datetime" />
+          <Property Name="StatusCell" Type="int" />
+          <Property Name="RoomId" Type="int" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="Type" Type="int" Nullable="false" />
+          <Property Name="EndDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="logRecs">
+          <Key>
+            <PropertyRef Name="LogId" />
+          </Key>
+          <Property Name="LogId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DateLog" Type="datetime" Nullable="false" />
+          <Property Name="Class" Type="varchar" MaxLength="10" />
+          <Property Name="SubClass" Type="varchar" MaxLength="10" />
+          <Property Name="operation" Type="varchar" MaxLength="255" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="RoomId" Type="int" />
+        </EntityType>
+        <EntityType Name="RoomCategories">
+          <Key>
+            <PropertyRef Name="RoomCategoriesId" />
+          </Key>
+          <Property Name="RoomCategoriesId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryNumber" Type="int" />
+          <Property Name="CategoryName" Type="varchar" MaxLength="50" />
+          <Property Name="CellCount" Type="int" />
+        </EntityType>
+        <EntityType Name="Rooms">
+          <Key>
+            <PropertyRef Name="RoomId" />
+          </Key>
+          <Property Name="RoomId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FloorId" Type="int" />
+          <Property Name="RoomNumber" Type="int" />
+          <Property Name="Protocol" Type="smallint" />
+          <Property Name="ConrollerId" Type="smallint" Nullable="false" />
+          <Property Name="LightOn" Type="bit" />
+          <Property Name="RoomClass" Type="varchar" MaxLength="50" />
+          <Property Name="DateGuardOn" Type="datetime" />
+          <Property Name="OnLine" Type="bit" />
+          <Property Name="Dat1" Type="bit" />
+          <Property Name="DateDat1" Type="datetime" />
+          <Property Name="Dat2" Type="bit" />
+          <Property Name="DateDat2" Type="datetime" />
+          <Property Name="DateRemove" Type="datetime" />
+          <Property Name="RoomCategoriesId" Type="int" />
+          <Property Name="IsProtected" Type="bit" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Created" Type="datetime" Nullable="false" />
+          <Property Name="Remove" Type="datetime" />
+          <Property Name="Login" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="Password" Type="varchar" Nullable="false" MaxLength="30" />
+          <Property Name="UserName" Type="varchar" MaxLength="200" />
+          <Property Name="GuardOn" Type="bit" />
+          <Property Name="RoomCategories" Type="varchar" MaxLength="200" />
+          <Property Name="AlarmOn" Type="bit" />
+          <Property Name="KeyOnOff" Type="bit" />
+          <Property Name="DatX" Type="bit" />
+          <Property Name="CellGroupID" Type="int" />
+          <Property Name="FloorId" Type="int" />
+          <Property Name="Type" Type="int" />
+        </EntityType>
+        <Association Name="FK_Keys_Rooms">
+          <End Role="Rooms" Type="AlfaTestingModel.Store.Rooms" Multiplicity="0..1" />
+          <End Role="Keys" Type="AlfaTestingModel.Store.Keys" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rooms">
+              <PropertyRef Name="RoomId" />
+            </Principal>
+            <Dependent Role="Keys">
+              <PropertyRef Name="RoomId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Keys_Users">
+          <End Role="Users" Type="AlfaTestingModel.Store.Users" Multiplicity="0..1" />
+          <End Role="Keys" Type="AlfaTestingModel.Store.Keys" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Keys">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_logRecs_Rooms">
+          <End Role="Rooms" Type="AlfaTestingModel.Store.Rooms" Multiplicity="0..1" />
+          <End Role="logRecs" Type="AlfaTestingModel.Store.logRecs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rooms">
+              <PropertyRef Name="RoomId" />
+            </Principal>
+            <Dependent Role="logRecs">
+              <PropertyRef Name="RoomId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_logRecs_Users">
+          <End Role="Users" Type="AlfaTestingModel.Store.Users" Multiplicity="0..1" />
+          <End Role="logRecs" Type="AlfaTestingModel.Store.logRecs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="logRecs">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_CellGroup">
+          <End Role="CellGroup" Type="AlfaTestingModel.Store.CellGroup" Multiplicity="0..1" />
+          <End Role="Users" Type="AlfaTestingModel.Store.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CellGroup">
+              <PropertyRef Name="CellGroupID" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="CellGroupID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Floor">
+          <End Role="Floors" Type="AlfaTestingModel.Store.Floors" Multiplicity="0..1" />
+          <End Role="Users" Type="AlfaTestingModel.Store.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Floors">
+              <PropertyRef Name="FloorId" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="FloorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AlfaTestingModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="AlfaTestingEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CellGroup" EntityType="AlfaTestingModel.CellGroup" />
+          <EntitySet Name="Floors" EntityType="AlfaTestingModel.Floors" />
+          <EntitySet Name="Keys" EntityType="AlfaTestingModel.Keys" />
+          <EntitySet Name="logRecs" EntityType="AlfaTestingModel.logRecs" />
+          <EntitySet Name="RoomCategories" EntityType="AlfaTestingModel.RoomCategories" />
+          <EntitySet Name="Rooms" EntityType="AlfaTestingModel.Rooms" />
+          <EntitySet Name="Users" EntityType="AlfaTestingModel.Users" />
+          <AssociationSet Name="FK_Users_CellGroup" Association="AlfaTestingModel.FK_Users_CellGroup">
+            <End Role="CellGroup" EntitySet="CellGroup" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Floor" Association="AlfaTestingModel.FK_Users_Floor">
+            <End Role="Floors" EntitySet="Floors" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Keys_Rooms" Association="AlfaTestingModel.FK_Keys_Rooms">
+            <End Role="Rooms" EntitySet="Rooms" />
+            <End Role="Keys" EntitySet="Keys" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Keys_Users" Association="AlfaTestingModel.FK_Keys_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Keys" EntitySet="Keys" />
+          </AssociationSet>
+          <AssociationSet Name="FK_logRecs_Rooms" Association="AlfaTestingModel.FK_logRecs_Rooms">
+            <End Role="Rooms" EntitySet="Rooms" />
+            <End Role="logRecs" EntitySet="logRecs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_logRecs_Users" Association="AlfaTestingModel.FK_logRecs_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="logRecs" EntitySet="logRecs" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CellGroup">
+          <Key>
+            <PropertyRef Name="CellGroupID" />
+          </Key>
+          <Property Name="CellGroupID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CellID" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="Primech" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Users" Relationship="AlfaTestingModel.FK_Users_CellGroup" FromRole="CellGroup" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Floors">
+          <Key>
+            <PropertyRef Name="FloorId" />
+          </Key>
+          <Property Name="FloorId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FloorName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="IPAddress" Type="String" MaxLength="50" Unicode="true" FixedLength="true" />
+          <Property Name="ComPort" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="ReaderProtocol" Type="Int16" />
+          <NavigationProperty Name="Users" Relationship="AlfaTestingModel.FK_Users_Floor" FromRole="Floors" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Keys">
+          <Key>
+            <PropertyRef Name="KeyId" />
+          </Key>
+          <Property Name="KeyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CellNumber" Type="Int32" Nullable="false" />
+          <Property Name="keyCode" Type="String" Nullable="false" MaxLength="16" Unicode="false" FixedLength="false" />
+          <Property Name="FIO" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+          <Property Name="GuestIdn" Type="Int32" />
+          <Property Name="CreateDate" Type="DateTime" />
+          <Property Name="RemoveDate" Type="DateTime" />
+          <Property Name="StatusCell" Type="Int32" />
+          <Property Name="RoomId" Type="Int32" />
+          <Property Name="UserId" Type="Int32" />
+          <Property Name="Type" Type="Int32" Nullable="false" />
+          <Property Name="EndDate" Type="DateTime" />
+          <NavigationProperty Name="Rooms" Relationship="AlfaTestingModel.FK_Keys_Rooms" FromRole="Keys" ToRole="Rooms" />
+          <NavigationProperty Name="Users" Relationship="AlfaTestingModel.FK_Keys_Users" FromRole="Keys" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="logRecs">
+          <Key>
+            <PropertyRef Name="LogId" />
+          </Key>
+          <Property Name="LogId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DateLog" Type="DateTime" Nullable="false" />
+          <Property Name="Class" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="SubClass" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="operation" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+          <Property Name="UserId" Type="Int32" />
+          <Property Name="RoomId" Type="Int32" />
+          <NavigationProperty Name="Rooms" Relationship="AlfaTestingModel.FK_logRecs_Rooms" FromRole="logRecs" ToRole="Rooms" />
+          <NavigationProperty Name="Users" Relationship="AlfaTestingModel.FK_logRecs_Users" FromRole="logRecs" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="RoomCategories">
+          <Key>
+            <PropertyRef Name="RoomCategoriesId" />
+          </Key>
+          <Property Name="RoomCategoriesId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryNumber" Type="Int32" />
+          <Property Name="CategoryName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CellCount" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Rooms">
+          <Key>
+            <PropertyRef Name="RoomId" />
+          </Key>
+          <Property Name="RoomId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FloorId" Type="Int32" />
+          <Property Name="RoomNumber" Type="Int32" />
+          <Property Name="Protocol" Type="Int16" />
+          <Property Name="ConrollerId" Type="Int16" Nullable="false" />
+          <Property Name="LightOn" Type="Boolean" />
+          <Property Name="RoomClass" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="DateGuardOn" Type="DateTime" />
+          <Property Name="OnLine" Type="Boolean" />
+          <Property Name="Dat1" Type="Boolean" />
+          <Property Name="DateDat1" Type="DateTime" />
+          <Property Name="Dat2" Type="Boolean" />
+          <Property Name="DateDat2" Type="DateTime" />
+          <Property Name="DateRemove" Type="DateTime" />
+          <Property Name="RoomCategoriesId" Type="Int32" />
+          <Property Name="IsProtected" Type="Boolean" />
+          <NavigationProperty Name="Keys" Relationship="AlfaTestingModel.FK_Keys_Rooms" FromRole="Rooms" ToRole="Keys" />
+          <NavigationProperty Name="logRecs" Relationship="AlfaTestingModel.FK_logRecs_Rooms" FromRole="Rooms" ToRole="logRecs" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Created" Type="DateTime" Nullable="false" />
+          <Property Name="Remove" Type="DateTime" />
+          <Property Name="Login" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="UserName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="GuardOn" Type="Boolean" />
+          <Property Name="RoomCategories" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="AlarmOn" Type="Boolean" />
+          <Property Name="KeyOnOff" Type="Boolean" />
+          <Property Name="DatX" Type="Boolean" />
+          <Property Name="CellGroupID" Type="Int32" />
+          <Property Name="FloorId" Type="Int32" />
+          <Property Name="Type" Type="Int32" />
+          <NavigationProperty Name="CellGroup" Relationship="AlfaTestingModel.FK_Users_CellGroup" FromRole="Users" ToRole="CellGroup" />
+          <NavigationProperty Name="Floors" Relationship="AlfaTestingModel.FK_Users_Floor" FromRole="Users" ToRole="Floors" />
+          <NavigationProperty Name="Keys" Relationship="AlfaTestingModel.FK_Keys_Users" FromRole="Users" ToRole="Keys" />
+          <NavigationProperty Name="logRecs" Relationship="AlfaTestingModel.FK_logRecs_Users" FromRole="Users" ToRole="logRecs" />
+        </EntityType>
+        <Association Name="FK_Users_CellGroup">
+          <End Role="CellGroup" Type="AlfaTestingModel.CellGroup" Multiplicity="0..1" />
+          <End Role="Users" Type="AlfaTestingModel.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CellGroup">
+              <PropertyRef Name="CellGroupID" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="CellGroupID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Floor">
+          <End Role="Floors" Type="AlfaTestingModel.Floors" Multiplicity="0..1" />
+          <End Role="Users" Type="AlfaTestingModel.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Floors">
+              <PropertyRef Name="FloorId" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="FloorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Keys_Rooms">
+          <End Role="Rooms" Type="AlfaTestingModel.Rooms" Multiplicity="0..1" />
+          <End Role="Keys" Type="AlfaTestingModel.Keys" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rooms">
+              <PropertyRef Name="RoomId" />
+            </Principal>
+            <Dependent Role="Keys">
+              <PropertyRef Name="RoomId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Keys_Users">
+          <End Role="Users" Type="AlfaTestingModel.Users" Multiplicity="0..1" />
+          <End Role="Keys" Type="AlfaTestingModel.Keys" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="Keys">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_logRecs_Rooms">
+          <End Role="Rooms" Type="AlfaTestingModel.Rooms" Multiplicity="0..1" />
+          <End Role="logRecs" Type="AlfaTestingModel.logRecs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Rooms">
+              <PropertyRef Name="RoomId" />
+            </Principal>
+            <Dependent Role="logRecs">
+              <PropertyRef Name="RoomId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_logRecs_Users">
+          <End Role="Users" Type="AlfaTestingModel.Users" Multiplicity="0..1" />
+          <End Role="logRecs" Type="AlfaTestingModel.logRecs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="UserId" />
+            </Principal>
+            <Dependent Role="logRecs">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AlfaTestingModelStoreContainer" CdmEntityContainer="AlfaTestingEntities">
+          <EntitySetMapping Name="CellGroup"><EntityTypeMapping TypeName="AlfaTestingModel.CellGroup"><MappingFragment StoreEntitySet="CellGroup">
+            <ScalarProperty Name="CellGroupID" ColumnName="CellGroupID" />
+            <ScalarProperty Name="CellID" ColumnName="CellID" />
+            <ScalarProperty Name="Primech" ColumnName="Primech" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Floors"><EntityTypeMapping TypeName="AlfaTestingModel.Floors"><MappingFragment StoreEntitySet="Floors">
+            <ScalarProperty Name="FloorId" ColumnName="FloorId" />
+            <ScalarProperty Name="FloorName" ColumnName="FloorName" />
+            <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+            <ScalarProperty Name="ComPort" ColumnName="ComPort" />
+            <ScalarProperty Name="ReaderProtocol" ColumnName="ReaderProtocol" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Keys"><EntityTypeMapping TypeName="AlfaTestingModel.Keys"><MappingFragment StoreEntitySet="Keys">
+            <ScalarProperty Name="KeyId" ColumnName="KeyId" />
+            <ScalarProperty Name="CellNumber" ColumnName="CellNumber" />
+            <ScalarProperty Name="keyCode" ColumnName="keyCode" />
+            <ScalarProperty Name="FIO" ColumnName="FIO" />
+            <ScalarProperty Name="GuestIdn" ColumnName="GuestIdn" />
+            <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+            <ScalarProperty Name="RemoveDate" ColumnName="RemoveDate" />
+            <ScalarProperty Name="StatusCell" ColumnName="StatusCell" />
+            <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+            <ScalarProperty Name="UserId" ColumnName="UserId" />
+            <ScalarProperty Name="Type" ColumnName="Type" />
+            <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="logRecs"><EntityTypeMapping TypeName="AlfaTestingModel.logRecs"><MappingFragment StoreEntitySet="logRecs">
+            <ScalarProperty Name="LogId" ColumnName="LogId" />
+            <ScalarProperty Name="DateLog" ColumnName="DateLog" />
+            <ScalarProperty Name="Class" ColumnName="Class" />
+            <ScalarProperty Name="SubClass" ColumnName="SubClass" />
+            <ScalarProperty Name="operation" ColumnName="operation" />
+            <ScalarProperty Name="UserId" ColumnName="UserId" />
+            <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="RoomCategories"><EntityTypeMapping TypeName="AlfaTestingModel.RoomCategories"><MappingFragment StoreEntitySet="RoomCategories">
+            <ScalarProperty Name="RoomCategoriesId" ColumnName="RoomCategoriesId" />
+            <ScalarProperty Name="CategoryNumber" ColumnName="CategoryNumber" />
+            <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+            <ScalarProperty Name="CellCount" ColumnName="CellCount" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Rooms"><EntityTypeMapping TypeName="AlfaTestingModel.Rooms"><MappingFragment StoreEntitySet="Rooms">
+            <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+            <ScalarProperty Name="FloorId" ColumnName="FloorId" />
+            <ScalarProperty Name="RoomNumber" ColumnName="RoomNumber" />
+            <ScalarProperty Name="Protocol" ColumnName="Protocol" />
+            <ScalarProperty Name="ConrollerId" ColumnName="ConrollerId" />
+            <ScalarProperty Name="LightOn" ColumnName="LightOn" />
+            <ScalarProperty Name="RoomClass" ColumnName="RoomClass" />
+            <ScalarProperty Name="DateGuardOn" ColumnName="DateGuardOn" />
+            <ScalarProperty Name="OnLine" ColumnName="OnLine" />
+            <ScalarProperty Name="Dat1" ColumnName="Dat1" />
+            <ScalarProperty Name="DateDat1" ColumnName="DateDat1" />
+            <ScalarProperty Name="Dat2" ColumnName="Dat2" />
+            <ScalarProperty Name="DateDat2" ColumnName="DateDat2" />
+            <ScalarProperty Name="DateRemove" ColumnName="DateRemove" />
+            <ScalarProperty Name="RoomCategoriesId" ColumnName="RoomCategoriesId" />
+            <ScalarProperty Name="IsProtected" ColumnName="IsProtected" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Users"><EntityTypeMapping TypeName="AlfaTestingModel.Users"><MappingFragment StoreEntitySet="Users">
+            <ScalarProperty Name="UserId" ColumnName="UserId" />
+            <ScalarProperty Name="Created" ColumnName="Created" />
+            <ScalarProperty Name="Remove" ColumnName="Remove" />
+            <ScalarProperty Name="Login" ColumnName="Login" />
+            <ScalarProperty Name="Password" ColumnName="Password" />
+            <ScalarProperty Name="UserName" ColumnName="UserName" />
+            <ScalarProperty Name="GuardOn" ColumnName="GuardOn" />
+            <ScalarProperty Name="RoomCategories" ColumnName="RoomCategories" />
+            <ScalarProperty Name="AlarmOn" ColumnName="AlarmOn" />
+            <ScalarProperty Name="KeyOnOff" ColumnName="KeyOnOff" />
+            <ScalarProperty Name="DatX" ColumnName="DatX" />
+            <ScalarProperty Name="CellGroupID" ColumnName="CellGroupID" />
+            <ScalarProperty Name="FloorId" ColumnName="FloorId" />
+            <ScalarProperty Name="Type" ColumnName="Type" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="ModelAlfa">
+        <EntityTypeShape EntityType="AlfaTestingModel.CellGroup" Width="1.5" PointX="0.75" PointY="4" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlfaTestingModel.Floors" Width="1.5" PointX="0.75" PointY="0.75" Height="2.1725878906249996" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlfaTestingModel.Keys" Width="1.5" PointX="5.25" PointY="3" Height="3.7109993489583335" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlfaTestingModel.logRecs" Width="1.5" PointX="8.25" PointY="3.5" Height="2.7494921874999996" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlfaTestingModel.RoomCategories" Width="1.5" PointX="7.75" PointY="0.75" Height="1.7879850260416674" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlfaTestingModel.Rooms" Width="1.5" PointX="3" PointY="8.625" Height="4.480205078125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlfaTestingModel.Users" Width="1.5" PointX="3" PointY="2.625" Height="4.4802050781250031" IsExpanded="true" />
+        <AssociationConnector Association="AlfaTestingModel.FK_Users_CellGroup" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="4.8939925130208337" />
+          <ConnectorPoint PointX="3" PointY="4.8939925130208337" />
+        </AssociationConnector>
+        <AssociationConnector Association="AlfaTestingModel.FK_Users_Floor" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="1.6874995" />
+          <ConnectorPoint PointX="3.75" PointY="1.6874995" />
+          <ConnectorPoint PointX="3.75" PointY="2.625" />
+        </AssociationConnector>
+        <AssociationConnector Association="AlfaTestingModel.FK_Keys_Rooms" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="10.8651025390625" />
+          <ConnectorPoint PointX="6" PointY="10.8651025390625" />
+          <ConnectorPoint PointX="6" PointY="6.7109993489583335" />
+        </AssociationConnector>
+        <AssociationConnector Association="AlfaTestingModel.FK_Keys_Users" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="4.8554996744791667" />
+          <ConnectorPoint PointX="5.25" PointY="4.8554996744791667" />
+        </AssociationConnector>
+        <AssociationConnector Association="AlfaTestingModel.FK_logRecs_Rooms" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="9.7137987695312482" />
+          <ConnectorPoint PointX="5.916666666666667" PointY="9.7137987695312482" />
+          <ConnectorPoint PointX="6.083333333333333" PointY="9.7137987695312482" />
+          <ConnectorPoint PointX="9" PointY="9.7137987695312482" />
+          <ConnectorPoint PointX="9" PointY="6.2494921875" />
+        </AssociationConnector>
+        <AssociationConnector Association="AlfaTestingModel.FK_logRecs_Users" ManuallyRouted="false">
+          <ConnectorPoint PointX="4.5" PointY="6.9393522135416683" />
+          <ConnectorPoint PointX="5.916666666666667" PointY="6.9393522135416674" />
+          <ConnectorPoint PointX="6.083333333333333" PointY="6.9393522135416683" />
+          <ConnectorPoint PointX="8.5937475" PointY="6.9393522135416683" />
+          <ConnectorPoint PointX="8.5937475" PointY="6.2494921875" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>
