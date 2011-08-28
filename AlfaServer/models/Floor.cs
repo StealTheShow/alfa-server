@@ -251,7 +251,7 @@ namespace AlfaServer.models
 
                 if (ClientServiceCallback != null && isProtected)
                 {
-                    ClientServiceCallback.AlertGerkon(_portName, _port.GetNumberLastRespondedController());
+                    ClientServiceCallback.AlertGerkon(room.RoomId);
                 }
             }
         }
